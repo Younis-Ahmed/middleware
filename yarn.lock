@@ -2811,7 +2811,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:^4.20231025.0"
     "@types/jest": "npm:^29.5.7"
-    hono: "npm:^4.5.1"
+    hono: "npm:^4.7.2"
     jest: "npm:^29.7.0"
     jest-environment-miniflare: "npm:^2.14.1"
     msw: "npm:^2.0.11"
@@ -11924,6 +11924,13 @@ __metadata:
   version: 4.6.10
   resolution: "hono@npm:4.6.10"
   checksum: e1a56e82059197607fbdebb5ad4a4962aa44ae239753a9be067ac61824f953bf7baf6415e03adc05986136b53cfa15b6e6d2d89d463cc3d4fc2fe93862425bab
+  languageName: node
+  linkType: hard
+
+"hono@npm:^4.7.2":
+  version: 4.7.2
+  resolution: "hono@npm:4.7.2"
+  checksum: 2bf7a85f25048c0deb181a767cf020491be611089a51f45448018fc4fa8a33ab9d34d8d0d39fe4e05c0abd5cd338d9c973984583c27ce7dc8d8919cadd2991d9
   languageName: node
   linkType: hard
 

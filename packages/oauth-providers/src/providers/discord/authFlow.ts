@@ -120,7 +120,7 @@ export class AuthFlow {
         authorization: `Bearer ${this.token?.token}`,
       },
     }).then((res) => res.json())) as DiscordMeResponse | DiscordErrorResponse
-
+    console.log('response: ', response)
     if ('error_description' in response) {
       throw new HTTPException(400, { message: response.error_description })
     }
